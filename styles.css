@@ -5,6 +5,8 @@ body {
 }
 img {
     max-width: 100%;
+    width: 30vw;
+    border-radius: 10%;
 }
 footer {
     text-align: center;
@@ -12,13 +14,15 @@ footer {
     background-color: #333;
     color: #fff;
 }    
-
 header { 
     background-color: #333;
     color: #fff;
     padding: 10px 0;
 }
-
+a {
+    color: #222;
+    text-decoration: underline;
+}
 nav ul {
     list-style: none;
     display: flex;
@@ -30,4 +34,11 @@ nav li {
 nav a {
     text-decoration: none;
     color: #fff;
+    padding: 10px;
+    border-radius: 10%;
+    background-color: #444;
+    transition-duration: 0.5s;
+}
+nav a:hover {
+    background-color: #222;
 }

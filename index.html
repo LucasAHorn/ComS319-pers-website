@@ -3,56 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Coms 319 Activity04</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
     <link rel="stylesheet" href="./styles.css">
     <style>
 .container {
     max-width: 960px;
     margin: 0 auto;
-padding: 40px;
+    padding: 40px;
 }
 .project {
     margin-bottom: 20px;
     border: 1px solid #ccc;
-padding: 20px;
+    border-radius: 5%;
+    padding: 5%;
 }
     </style>
 </head>
 <body>
     <header>
-            <nav>
-                <ul>
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
     </header>
     <section id="about">
         <div class="container">
             <img src= "./images/profile.jpeg" alt="Profile Photo">
-            <h1>Ph.D. Abraham Aldaco</h1>
-            <p>Web Developer</p><p style="font-family: 'Courier New', Courier, monospace; color: brown">Web Developer</p>
-            <p>I am Assistant Teaching Professor at Iowa State
-             University. This semester Spring2025 I am teaching
-             ComS309 and SE/ComS319.
-             The number of students I am teaching is around 400
-             among the four groups. </p>
+            <h1>Lucas Horn</h1>
+            <p style="font-family: 'Courier New', Courier, monospace; color: brown">Aspiring Web Developer</p>
+            <p>
+                I am a student at Iowa State University studying Software Engineering. I am currently enjoying Com S 309,
+                a project based class that will help me understand standard programming practices and git and gitlabs. The
+                class has already helped me explore programming in bash. I wrote a small scrypt to stage, commit, and push safely.
+                I am excited for what my future holds and would love for you to be a part of it! 
+            </p>
         </div>
     </section>
     <section id="projects">
         <div class="container">
             <h2>Projects</h2>
             <div class="project">
-            <img src= "./images/project1.jpg" alt="Project 1">
-            <h3>Project 1</h3>
-            <p>The first project is related to develop a single Web page using
-             only two technologies: HTML and CSS. The project consists in
-             creating a single web page with a menu at the top know as
-             Navigation Bar. We have to include text describing ourself and
-             text describing the project. Additionally, we need to include
-             two images: one image is of ourself and second image is anything
-             related to the project itself.</p>
+                <img src="./images/project1.jpg" alt="Project 1">
+                <h3><a href="https://github.com/nwfrank/builddsm">Farm-acutical Fix</a></h3>
+                <p>
+                    This project aimed to solve a vetranary medicine issue. I participated in
+                    a group of four students to take information from the FDA Greenbook (animal drug database),
+                    and make it more easily searchable. This was accomplished and we were awarded
+                    <strong>Best Technical Build</strong>.
+                    <br>
+                    This project utilized React and no back end, so I really have no clue how we won that award.
+                    For this being my first hackathon I am proud of my accomplishments.
+                </p>
             </div>
             <!-- Add more project divs here -->
         </div>
@@ -60,7 +65,7 @@ padding: 20px;
     <section id="contact">
         <div class="container">
             <h2>Contact Me</h2>
-            <p>You can reach me at luhorn@iastate.edu</p>
+            <p>You can reach me at <strong>luhorn@iastate.edu</strong></p>
         </div>    
     </section>
     <footer>
